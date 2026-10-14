@@ -1,0 +1,593 @@
+{
+  "cases": [
+    {
+      "sample": 6,
+      "keys": null,
+      "reverse_callback_order": false,
+      "mutate_global_assert": false,
+      "passed": true
+    },
+    {
+      "sample": 6,
+      "keys": null,
+      "reverse_callback_order": false,
+      "mutate_global_assert": true,
+      "passed": true
+    },
+    {
+      "sample": 6,
+      "keys": null,
+      "reverse_callback_order": true,
+      "mutate_global_assert": false,
+      "passed": true
+    },
+    {
+      "sample": 6,
+      "keys": null,
+      "reverse_callback_order": true,
+      "mutate_global_assert": true,
+      "passed": true
+    },
+    {
+      "sample": 6,
+      "keys": [],
+      "reverse_callback_order": false,
+      "mutate_global_assert": false,
+      "passed": true
+    },
+    {
+      "sample": 6,
+      "keys": [],
+      "reverse_callback_order": false,
+      "mutate_global_assert": true,
+      "passed": true
+    },
+    {
+      "sample": 6,
+      "keys": [],
+      "reverse_callback_order": true,
+      "mutate_global_assert": false,
+      "passed": true
+    },
+    {
+      "sample": 6,
+      "keys": [],
+      "reverse_callback_order": true,
+      "mutate_global_assert": true,
+      "passed": true
+    },
+    {
+      "sample": 6,
+      "keys": [
+        10
+      ],
+      "reverse_callback_order": false,
+      "mutate_global_assert": false,
+      "passed": true
+    },
+    {
+      "sample": 6,
+      "keys": [
+        10
+      ],
+      "reverse_callback_order": false,
+      "mutate_global_assert": true,
+      "passed": true
+    },
+    {
+      "sample": 6,
+      "keys": [
+        10
+      ],
+      "reverse_callback_order": true,
+      "mutate_global_assert": false,
+      "passed": true
+    },
+    {
+      "sample": 6,
+      "keys": [
+        10
+      ],
+      "reverse_callback_order": true,
+      "mutate_global_assert": true,
+      "passed": true
+    },
+    {
+      "sample": 6,
+      "keys": [
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "reverse_callback_order": false,
+      "mutate_global_assert": false,
+      "passed": true
+    },
+    {
+      "sample": 6,
+      "keys": [
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "reverse_callback_order": false,
+      "mutate_global_assert": true,
+      "passed": true
+    },
+    {
+      "sample": 6,
+      "keys": [
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "reverse_callback_order": true,
+      "mutate_global_assert": false,
+      "passed": true
+    },
+    {
+      "sample": 6,
+      "keys": [
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "reverse_callback_order": true,
+      "mutate_global_assert": true,
+      "passed": true
+    },
+    {
+      "sample": 6,
+      "keys": [
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "reverse_callback_order": false,
+      "mutate_global_assert": false,
+      "passed": true
+    },
+    {
+      "sample": 6,
+      "keys": [
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "reverse_callback_order": false,
+      "mutate_global_assert": true,
+      "passed": true
+    },
+    {
+      "sample": 6,
+      "keys": [
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "reverse_callback_order": true,
+      "mutate_global_assert": false,
+      "passed": true
+    },
+    {
+      "sample": 6,
+      "keys": [
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "reverse_callback_order": true,
+      "mutate_global_assert": true,
+      "passed": true
+    },
+    {
+      "sample": 6,
+      "keys": [
+        -2,
+        0,
+        9
+      ],
+      "reverse_callback_order": false,
+      "mutate_global_assert": false,
+      "passed": true
+    },
+    {
+      "sample": 6,
+      "keys": [
+        -2,
+        0,
+        9
+      ],
+      "reverse_callback_order": false,
+      "mutate_global_assert": true,
+      "passed": true
+    },
+    {
+      "sample": 6,
+      "keys": [
+        -2,
+        0,
+        9
+      ],
+      "reverse_callback_order": true,
+      "mutate_global_assert": false,
+      "passed": true
+    },
+    {
+      "sample": 6,
+      "keys": [
+        -2,
+        0,
+        9
+      ],
+      "reverse_callback_order": true,
+      "mutate_global_assert": true,
+      "passed": true
+    },
+    {
+      "sample": 6,
+      "keys": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reverse_callback_order": false,
+      "mutate_global_assert": false,
+      "passed": true
+    },
+    {
+      "sample": 6,
+      "keys": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reverse_callback_order": false,
+      "mutate_global_assert": true,
+      "passed": true
+    },
+    {
+      "sample": 6,
+      "keys": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reverse_callback_order": true,
+      "mutate_global_assert": false,
+      "passed": true
+    },
+    {
+      "sample": 6,
+      "keys": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reverse_callback_order": true,
+      "mutate_global_assert": true,
+      "passed": true
+    },
+    {
+      "sample": 7,
+      "keys": null,
+      "reverse_callback_order": false,
+      "mutate_global_assert": false,
+      "passed": true
+    },
+    {
+      "sample": 7,
+      "keys": null,
+      "reverse_callback_order": false,
+      "mutate_global_assert": true,
+      "passed": true
+    },
+    {
+      "sample": 7,
+      "keys": null,
+      "reverse_callback_order": true,
+      "mutate_global_assert": false,
+      "passed": true
+    },
+    {
+      "sample": 7,
+      "keys": null,
+      "reverse_callback_order": true,
+      "mutate_global_assert": true,
+      "passed": true
+    },
+    {
+      "sample": 7,
+      "keys": [],
+      "reverse_callback_order": false,
+      "mutate_global_assert": false,
+      "passed": true
+    },
+    {
+      "sample": 7,
+      "keys": [],
+      "reverse_callback_order": false,
+      "mutate_global_assert": true,
+      "passed": true
+    },
+    {
+      "sample": 7,
+      "keys": [],
+      "reverse_callback_order": true,
+      "mutate_global_assert": false,
+      "passed": true
+    },
+    {
+      "sample": 7,
+      "keys": [],
+      "reverse_callback_order": true,
+      "mutate_global_assert": true,
+      "passed": true
+    },
+    {
+      "sample": 7,
+      "keys": [
+        10
+      ],
+      "reverse_callback_order": false,
+      "mutate_global_assert": false,
+      "passed": true
+    },
+    {
+      "sample": 7,
+      "keys": [
+        10
+      ],
+      "reverse_callback_order": false,
+      "mutate_global_assert": true,
+      "passed": true
+    },
+    {
+      "sample": 7,
+      "keys": [
+        10
+      ],
+      "reverse_callback_order": true,
+      "mutate_global_assert": false,
+      "passed": true
+    },
+    {
+      "sample": 7,
+      "keys": [
+        10
+      ],
+      "reverse_callback_order": true,
+      "mutate_global_assert": true,
+      "passed": true
+    },
+    {
+      "sample": 7,
+      "keys": [
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "reverse_callback_order": false,
+      "mutate_global_assert": false,
+      "passed": true
+    },
+    {
+      "sample": 7,
+      "keys": [
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "reverse_callback_order": false,
+      "mutate_global_assert": true,
+      "passed": true
+    },
+    {
+      "sample": 7,
+      "keys": [
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "reverse_callback_order": true,
+      "mutate_global_assert": false,
+      "passed": true
+    },
+    {
+      "sample": 7,
+      "keys": [
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "reverse_callback_order": true,
+      "mutate_global_assert": true,
+      "passed": true
+    },
+    {
+      "sample": 7,
+      "keys": [
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "reverse_callback_order": false,
+      "mutate_global_assert": false,
+      "passed": true
+    },
+    {
+      "sample": 7,
+      "keys": [
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "reverse_callback_order": false,
+      "mutate_global_assert": true,
+      "passed": true
+    },
+    {
+      "sample": 7,
+      "keys": [
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "reverse_callback_order": true,
+      "mutate_global_assert": false,
+      "passed": true
+    },
+    {
+      "sample": 7,
+      "keys": [
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "reverse_callback_order": true,
+      "mutate_global_assert": true,
+      "passed": true
+    },
+    {
+      "sample": 7,
+      "keys": [
+        -2,
+        0,
+        9
+      ],
+      "reverse_callback_order": false,
+      "mutate_global_assert": false,
+      "passed": true
+    },
+    {
+      "sample": 7,
+      "keys": [
+        -2,
+        0,
+        9
+      ],
+      "reverse_callback_order": false,
+      "mutate_global_assert": true,
+      "passed": true
+    },
+    {
+      "sample": 7,
+      "keys": [
+        -2,
+        0,
+        9
+      ],
+      "reverse_callback_order": true,
+      "mutate_global_assert": false,
+      "passed": true
+    },
+    {
+      "sample": 7,
+      "keys": [
+        -2,
+        0,
+        9
+      ],
+      "reverse_callback_order": true,
+      "mutate_global_assert": true,
+      "passed": true
+    },
+    {
+      "sample": 7,
+      "keys": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reverse_callback_order": false,
+      "mutate_global_assert": false,
+      "passed": true
+    },
+    {
+      "sample": 7,
+      "keys": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reverse_callback_order": false,
+      "mutate_global_assert": true,
+      "passed": true
+    },
+    {
+      "sample": 7,
+      "keys": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reverse_callback_order": true,
+      "mutate_global_assert": false,
+      "passed": true
+    },
+    {
+      "sample": 7,
+      "keys": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reverse_callback_order": true,
+      "mutate_global_assert": true,
+      "passed": true
+    }
+  ],
+  "count": 56,
+  "runtime": "Lupa LuaJIT 2.1",
+  "reference_payload_execution": "restricted pure Lua environment; fixed inspected input hashes only",
+  "external_network": false,
+  "filesystem_exposed_to_lua": false
+}

@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "obfuscator_inputs": "MoonVeil 2.1.0",
+  "reviewed_clean_results": 2,
+  "independent_luajit_differential_cases": 56,
+  "sample_6": {
+    "decoded_constant_references": 838,
+    "vm_prototypes": 3,
+    "vm_instruction_records": 40
+  },
+  "sample_7": {
+    "decoded_constant_references": 644,
+    "vm_prototypes": 2,
+    "vm_instruction_records": 28
+  },
+  "source_results_preserve_loops_and_captures": true,
+  "analysis_works_without_matching_input_hash": true,
+  "unreviewed_entry_trace_rejected": true,
+  "clean_outputs_produced_by_manual_bytecode_reconstruction": true,
+  "automatic_universal_vm_decompiler": false,
+  "native_windows_powershell_tested": false,
+  "result_sha256": {
+    "6": "ab76895e87a15e95f35089cf0c821de7d255ef3b7bf1a4b932a0484000e3af6f",
+    "7": "b47469250c0c5da7806f5d9624b52ef745ccfcdfaf6652156a5b7a466940e7bf"
+  }
+}

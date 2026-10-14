@@ -1,0 +1,2 @@
+# Optional independent native-Lua fixture verification only, never needed by analyzer.
+lupa==2.8

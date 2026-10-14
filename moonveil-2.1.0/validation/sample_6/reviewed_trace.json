@@ -1,0 +1,4533 @@
+{
+  "status": "reviewed_pure_ast_trace",
+  "sample": "sample_6",
+  "assertions": [
+    [
+      true
+    ],
+    [
+      true
+    ]
+  ],
+  "returns": [],
+  "events": [
+    {
+      "loader": "k",
+      "prototype": "root",
+      "pc": 1,
+      "handler": "ba",
+      "before": {},
+      "after": {
+        "1.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        }
+      },
+      "returns": [
+        null,
+        null,
+        2.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root",
+      "pc": 2,
+      "handler": "fa",
+      "before": {
+        "1.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        }
+      },
+      "after": {
+        "1.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "2.0": {
+          "closure_range": [
+            95955,
+            97182
+          ]
+        }
+      },
+      "returns": [
+        null,
+        null,
+        3.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root",
+      "pc": 3,
+      "handler": "P",
+      "before": {
+        "1.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "2.0": {
+          "closure_range": [
+            95955,
+            97182
+          ]
+        }
+      },
+      "after": {
+        "1.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "2.0": {
+          "closure_range": [
+            95955,
+            97182
+          ]
+        }
+      },
+      "returns": [
+        null,
+        null,
+        4.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root",
+      "pc": 4,
+      "handler": "ia",
+      "before": {
+        "1.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "2.0": {
+          "closure_range": [
+            95955,
+            97182
+          ]
+        }
+      },
+      "after": {
+        "1.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "2.0": {
+          "closure_range": [
+            95955,
+            97182
+          ]
+        },
+        "3.0": {
+          "builtin": "assert"
+        },
+        "4.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        }
+      },
+      "returns": [
+        null,
+        null,
+        5.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root",
+      "pc": 5,
+      "handler": "ca",
+      "before": {
+        "1.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "2.0": {
+          "closure_range": [
+            95955,
+            97182
+          ]
+        },
+        "3.0": {
+          "builtin": "assert"
+        },
+        "4.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        }
+      },
+      "after": {
+        "1.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "2.0": {
+          "closure_range": [
+            95955,
+            97182
+          ]
+        },
+        "3.0": {
+          "builtin": "assert"
+        },
+        "4.0": 15.0
+      },
+      "returns": [
+        null,
+        null,
+        6.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 1,
+      "handler": "X",
+      "before": {},
+      "after": {
+        "2.0": {
+          "table_entries": 0
+        },
+        "1.0": {
+          "table_entries": 0
+        }
+      },
+      "returns": [
+        null,
+        null,
+        2.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 2,
+      "handler": "P",
+      "before": {
+        "2.0": {
+          "table_entries": 0
+        },
+        "1.0": {
+          "table_entries": 0
+        }
+      },
+      "after": {
+        "2.0": {
+          "table_entries": 0
+        },
+        "1.0": {
+          "table_entries": 0
+        }
+      },
+      "returns": [
+        null,
+        null,
+        3.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 3,
+      "handler": "ka",
+      "before": {
+        "2.0": {
+          "table_entries": 0
+        },
+        "1.0": {
+          "table_entries": 0
+        }
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs"
+        },
+        "1.0": {
+          "table_entries": 0
+        },
+        "5.0": {
+          "table_entries": 0
+        }
+      },
+      "returns": [
+        null,
+        null,
+        4.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 4,
+      "handler": "R",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs"
+        },
+        "1.0": {
+          "table_entries": 0
+        },
+        "5.0": {
+          "table_entries": 0
+        }
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs"
+        },
+        "1.0": {
+          "table_entries": 0
+        },
+        "5.0": {
+          "table_entries": 0
+        },
+        "6.0": 1.0,
+        "7.0": 2.0
+      },
+      "returns": [
+        null,
+        null,
+        5.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 5,
+      "handler": "R",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs"
+        },
+        "1.0": {
+          "table_entries": 0
+        },
+        "5.0": {
+          "table_entries": 0
+        },
+        "6.0": 1.0,
+        "7.0": 2.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs"
+        },
+        "1.0": {
+          "table_entries": 0
+        },
+        "5.0": {
+          "table_entries": 0
+        },
+        "6.0": 1.0,
+        "7.0": 2.0,
+        "8.0": 3.0,
+        "9.0": 4.0
+      },
+      "returns": [
+        null,
+        null,
+        6.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 6,
+      "handler": "U",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs"
+        },
+        "1.0": {
+          "table_entries": 0
+        },
+        "5.0": {
+          "table_entries": 0
+        },
+        "6.0": 1.0,
+        "7.0": 2.0,
+        "8.0": 3.0,
+        "9.0": 4.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs"
+        },
+        "1.0": {
+          "table_entries": 0
+        },
+        "5.0": {
+          "table_entries": 0
+        },
+        "6.0": 1.0,
+        "7.0": 2.0,
+        "8.0": 3.0,
+        "9.0": 4.0,
+        "10.0": 5.0
+      },
+      "returns": [
+        null,
+        null,
+        7.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 7,
+      "handler": "ha",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs"
+        },
+        "1.0": {
+          "table_entries": 0
+        },
+        "5.0": {
+          "table_entries": 0
+        },
+        "6.0": 1.0,
+        "7.0": 2.0,
+        "8.0": 3.0,
+        "9.0": 4.0,
+        "10.0": 5.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs"
+        },
+        "1.0": {
+          "table_entries": 0
+        },
+        "5.0": {
+          "table_entries": 5
+        },
+        "6.0": 1.0,
+        "7.0": 2.0,
+        "8.0": 3.0,
+        "9.0": 4.0,
+        "10.0": 5.0
+      },
+      "returns": [
+        null,
+        null,
+        8.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 8,
+      "handler": "N",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs"
+        },
+        "1.0": {
+          "table_entries": 0
+        },
+        "5.0": {
+          "table_entries": 5
+        },
+        "6.0": 1.0,
+        "7.0": 2.0,
+        "8.0": 3.0,
+        "9.0": 4.0,
+        "10.0": 5.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 0
+        },
+        "5.0": {
+          "table_entries": 5
+        },
+        "6.0": 1.0,
+        "7.0": 2.0,
+        "8.0": 3.0,
+        "9.0": 4.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 0.0
+      },
+      "returns": [
+        null,
+        null,
+        9.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 9,
+      "handler": "Q",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 0
+        },
+        "5.0": {
+          "table_entries": 5
+        },
+        "6.0": 1.0,
+        "7.0": 2.0,
+        "8.0": 3.0,
+        "9.0": 4.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 0.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 0
+        },
+        "5.0": 1.0,
+        "6.0": 1.0,
+        "7.0": 2.0,
+        "8.0": 3.0,
+        "9.0": 4.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 1.0
+      },
+      "returns": [
+        null,
+        null,
+        10.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 10,
+      "handler": "ea",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 0
+        },
+        "5.0": 1.0,
+        "6.0": 1.0,
+        "7.0": 2.0,
+        "8.0": 3.0,
+        "9.0": 4.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 1.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 0
+        },
+        "5.0": 1.0,
+        "6.0": 1.0,
+        "7.0": 2.0,
+        "8.0": 0.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 1.0
+      },
+      "returns": [
+        null,
+        null,
+        11.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 11,
+      "handler": "M",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 0
+        },
+        "5.0": 1.0,
+        "6.0": 1.0,
+        "7.0": 2.0,
+        "8.0": 0.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 1.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 0
+        },
+        "5.0": 1.0,
+        "6.0": 1.0,
+        "7.0": 1.0,
+        "8.0": 0.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 1.0
+      },
+      "returns": [
+        null,
+        null,
+        12.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 12,
+      "handler": "ba",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 0
+        },
+        "5.0": 1.0,
+        "6.0": 1.0,
+        "7.0": 1.0,
+        "8.0": 0.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 1.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 0
+        },
+        "5.0": 1.0,
+        "6.0": 1.0,
+        "7.0": 1.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 1.0
+      },
+      "returns": [
+        null,
+        null,
+        14.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 14,
+      "handler": "ga",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 0
+        },
+        "5.0": 1.0,
+        "6.0": 1.0,
+        "7.0": 1.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 1.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 1
+        },
+        "5.0": 1.0,
+        "6.0": 1.0,
+        "7.0": 1.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 1.0
+      },
+      "returns": [
+        null,
+        null,
+        15.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 15,
+      "handler": "I",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 1
+        },
+        "5.0": 1.0,
+        "6.0": 1.0,
+        "7.0": 1.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 1.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 1
+        },
+        "5.0": 1.0,
+        "6.0": 1.0,
+        "7.0": 1.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 1.0
+      },
+      "returns": [
+        null,
+        null,
+        21.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 21,
+      "handler": "V",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 1
+        },
+        "5.0": 1.0,
+        "6.0": 1.0,
+        "7.0": 1.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 1.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 1
+        },
+        "5.0": 1.0,
+        "6.0": 1.0,
+        "7.0": 1.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 1.0
+      },
+      "returns": [
+        null,
+        null,
+        22.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 22,
+      "handler": "J",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 1
+        },
+        "5.0": 1.0,
+        "6.0": 1.0,
+        "7.0": 1.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 1.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 1
+        },
+        "5.0": 2.0,
+        "6.0": 1.0,
+        "7.0": 1.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 2.0
+      },
+      "returns": [
+        null,
+        null,
+        10.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 10,
+      "handler": "ea",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 1
+        },
+        "5.0": 2.0,
+        "6.0": 1.0,
+        "7.0": 1.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 2.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 1
+        },
+        "5.0": 2.0,
+        "6.0": 1.0,
+        "7.0": 1.0,
+        "8.0": 1.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 2.0
+      },
+      "returns": [
+        null,
+        null,
+        11.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 11,
+      "handler": "M",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 1
+        },
+        "5.0": 2.0,
+        "6.0": 1.0,
+        "7.0": 1.0,
+        "8.0": 1.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 2.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 1
+        },
+        "5.0": 2.0,
+        "6.0": 1.0,
+        "7.0": 2.0,
+        "8.0": 1.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 2.0
+      },
+      "returns": [
+        null,
+        null,
+        12.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 12,
+      "handler": "ba",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 1
+        },
+        "5.0": 2.0,
+        "6.0": 1.0,
+        "7.0": 2.0,
+        "8.0": 1.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 2.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 1
+        },
+        "5.0": 2.0,
+        "6.0": 1.0,
+        "7.0": 2.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 2.0
+      },
+      "returns": [
+        null,
+        null,
+        14.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 14,
+      "handler": "ga",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 1
+        },
+        "5.0": 2.0,
+        "6.0": 1.0,
+        "7.0": 2.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 2.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 2
+        },
+        "5.0": 2.0,
+        "6.0": 1.0,
+        "7.0": 2.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 2.0
+      },
+      "returns": [
+        null,
+        null,
+        15.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 15,
+      "handler": "I",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 2
+        },
+        "5.0": 2.0,
+        "6.0": 1.0,
+        "7.0": 2.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 2.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 2
+        },
+        "5.0": 2.0,
+        "6.0": 1.0,
+        "7.0": 2.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 2.0
+      },
+      "returns": [
+        null,
+        null,
+        21.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 21,
+      "handler": "V",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 2
+        },
+        "5.0": 2.0,
+        "6.0": 1.0,
+        "7.0": 2.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 2.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 2
+        },
+        "5.0": 2.0,
+        "6.0": 1.0,
+        "7.0": 2.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 2.0
+      },
+      "returns": [
+        null,
+        null,
+        22.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 22,
+      "handler": "J",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 2
+        },
+        "5.0": 2.0,
+        "6.0": 1.0,
+        "7.0": 2.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 2.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 2
+        },
+        "5.0": 3.0,
+        "6.0": 1.0,
+        "7.0": 2.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 3.0
+      },
+      "returns": [
+        null,
+        null,
+        10.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 10,
+      "handler": "ea",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 2
+        },
+        "5.0": 3.0,
+        "6.0": 1.0,
+        "7.0": 2.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 3.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 2
+        },
+        "5.0": 3.0,
+        "6.0": 1.0,
+        "7.0": 2.0,
+        "8.0": 2.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 3.0
+      },
+      "returns": [
+        null,
+        null,
+        11.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 11,
+      "handler": "M",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 2
+        },
+        "5.0": 3.0,
+        "6.0": 1.0,
+        "7.0": 2.0,
+        "8.0": 2.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 3.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 2
+        },
+        "5.0": 3.0,
+        "6.0": 1.0,
+        "7.0": 3.0,
+        "8.0": 2.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 3.0
+      },
+      "returns": [
+        null,
+        null,
+        12.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 12,
+      "handler": "ba",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 2
+        },
+        "5.0": 3.0,
+        "6.0": 1.0,
+        "7.0": 3.0,
+        "8.0": 2.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 3.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 2
+        },
+        "5.0": 3.0,
+        "6.0": 1.0,
+        "7.0": 3.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 3.0
+      },
+      "returns": [
+        null,
+        null,
+        14.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 14,
+      "handler": "ga",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 2
+        },
+        "5.0": 3.0,
+        "6.0": 1.0,
+        "7.0": 3.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 3.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 3
+        },
+        "5.0": 3.0,
+        "6.0": 1.0,
+        "7.0": 3.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 3.0
+      },
+      "returns": [
+        null,
+        null,
+        15.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 15,
+      "handler": "I",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 3
+        },
+        "5.0": 3.0,
+        "6.0": 1.0,
+        "7.0": 3.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 3.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 3
+        },
+        "5.0": 3.0,
+        "6.0": 1.0,
+        "7.0": 3.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 3.0
+      },
+      "returns": [
+        null,
+        null,
+        21.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 21,
+      "handler": "V",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 3
+        },
+        "5.0": 3.0,
+        "6.0": 1.0,
+        "7.0": 3.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 3.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 3
+        },
+        "5.0": 3.0,
+        "6.0": 1.0,
+        "7.0": 3.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 3.0
+      },
+      "returns": [
+        null,
+        null,
+        22.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 22,
+      "handler": "J",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 3
+        },
+        "5.0": 3.0,
+        "6.0": 1.0,
+        "7.0": 3.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 3.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 3
+        },
+        "5.0": 4.0,
+        "6.0": 1.0,
+        "7.0": 3.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 4.0
+      },
+      "returns": [
+        null,
+        null,
+        10.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 10,
+      "handler": "ea",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 3
+        },
+        "5.0": 4.0,
+        "6.0": 1.0,
+        "7.0": 3.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 4.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 3
+        },
+        "5.0": 4.0,
+        "6.0": 1.0,
+        "7.0": 3.0,
+        "8.0": 3.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 4.0
+      },
+      "returns": [
+        null,
+        null,
+        11.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 11,
+      "handler": "M",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 3
+        },
+        "5.0": 4.0,
+        "6.0": 1.0,
+        "7.0": 3.0,
+        "8.0": 3.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 4.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 3
+        },
+        "5.0": 4.0,
+        "6.0": 1.0,
+        "7.0": 4.0,
+        "8.0": 3.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 4.0
+      },
+      "returns": [
+        null,
+        null,
+        12.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 12,
+      "handler": "ba",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 3
+        },
+        "5.0": 4.0,
+        "6.0": 1.0,
+        "7.0": 4.0,
+        "8.0": 3.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 4.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 3
+        },
+        "5.0": 4.0,
+        "6.0": 1.0,
+        "7.0": 4.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 4.0
+      },
+      "returns": [
+        null,
+        null,
+        14.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 14,
+      "handler": "ga",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 3
+        },
+        "5.0": 4.0,
+        "6.0": 1.0,
+        "7.0": 4.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 4.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 4
+        },
+        "5.0": 4.0,
+        "6.0": 1.0,
+        "7.0": 4.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 4.0
+      },
+      "returns": [
+        null,
+        null,
+        15.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 15,
+      "handler": "I",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 4
+        },
+        "5.0": 4.0,
+        "6.0": 1.0,
+        "7.0": 4.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 4.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 4
+        },
+        "5.0": 4.0,
+        "6.0": 1.0,
+        "7.0": 4.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 4.0
+      },
+      "returns": [
+        null,
+        null,
+        21.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 21,
+      "handler": "V",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 4
+        },
+        "5.0": 4.0,
+        "6.0": 1.0,
+        "7.0": 4.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 4.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 4
+        },
+        "5.0": 4.0,
+        "6.0": 1.0,
+        "7.0": 4.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 4.0
+      },
+      "returns": [
+        null,
+        null,
+        22.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 22,
+      "handler": "J",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 4
+        },
+        "5.0": 4.0,
+        "6.0": 1.0,
+        "7.0": 4.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 4.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 4
+        },
+        "5.0": 5.0,
+        "6.0": 1.0,
+        "7.0": 4.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 5.0
+      },
+      "returns": [
+        null,
+        null,
+        10.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 10,
+      "handler": "ea",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 4
+        },
+        "5.0": 5.0,
+        "6.0": 1.0,
+        "7.0": 4.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 5.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 4
+        },
+        "5.0": 5.0,
+        "6.0": 1.0,
+        "7.0": 4.0,
+        "8.0": 4.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 5.0
+      },
+      "returns": [
+        null,
+        null,
+        11.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 11,
+      "handler": "M",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 4
+        },
+        "5.0": 5.0,
+        "6.0": 1.0,
+        "7.0": 4.0,
+        "8.0": 4.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 5.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 4
+        },
+        "5.0": 5.0,
+        "6.0": 1.0,
+        "7.0": 5.0,
+        "8.0": 4.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 5.0
+      },
+      "returns": [
+        null,
+        null,
+        12.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 12,
+      "handler": "ba",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 4
+        },
+        "5.0": 5.0,
+        "6.0": 1.0,
+        "7.0": 5.0,
+        "8.0": 4.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 5.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 4
+        },
+        "5.0": 5.0,
+        "6.0": 1.0,
+        "7.0": 5.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 5.0
+      },
+      "returns": [
+        null,
+        null,
+        14.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 14,
+      "handler": "ga",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 4
+        },
+        "5.0": 5.0,
+        "6.0": 1.0,
+        "7.0": 5.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 5.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 5
+        },
+        "5.0": 5.0,
+        "6.0": 1.0,
+        "7.0": 5.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 5.0
+      },
+      "returns": [
+        null,
+        null,
+        15.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 15,
+      "handler": "I",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 5
+        },
+        "5.0": 5.0,
+        "6.0": 1.0,
+        "7.0": 5.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 5.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 5
+        },
+        "5.0": 5.0,
+        "6.0": 1.0,
+        "7.0": 5.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 5.0
+      },
+      "returns": [
+        null,
+        null,
+        21.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 21,
+      "handler": "V",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 5
+        },
+        "5.0": 5.0,
+        "6.0": 1.0,
+        "7.0": 5.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 5.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 5
+        },
+        "5.0": 5.0,
+        "6.0": 1.0,
+        "7.0": 5.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 5.0
+      },
+      "returns": [
+        null,
+        null,
+        22.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 22,
+      "handler": "J",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 5
+        },
+        "5.0": 5.0,
+        "6.0": 1.0,
+        "7.0": 5.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        },
+        "4.0": 5.0
+      },
+      "after": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 1.0,
+        "7.0": 5.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        }
+      },
+      "returns": [
+        null,
+        null,
+        16.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 16,
+      "handler": "aa",
+      "before": {
+        "2.0": {
+          "builtin": "ipairs.next"
+        },
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 1.0,
+        "7.0": 5.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        }
+      },
+      "after": {
+        "2.0": 0.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 1.0,
+        "7.0": 5.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        }
+      },
+      "returns": [
+        null,
+        null,
+        17.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 17,
+      "handler": "P",
+      "before": {
+        "2.0": 0.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 1.0,
+        "7.0": 5.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        }
+      },
+      "after": {
+        "2.0": 0.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 1.0,
+        "7.0": 5.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        }
+      },
+      "returns": [
+        null,
+        null,
+        18.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 18,
+      "handler": "ia",
+      "before": {
+        "2.0": 0.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 1.0,
+        "7.0": 5.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "table_entries": 5
+        }
+      },
+      "after": {
+        "2.0": 0.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 1.0,
+        "7.0": 5.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "pairs"
+        },
+        "4.0": {
+          "table_entries": 5
+        }
+      },
+      "returns": [
+        null,
+        null,
+        19.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 19,
+      "handler": "ca",
+      "before": {
+        "2.0": 0.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 1.0,
+        "7.0": 5.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "pairs"
+        },
+        "4.0": {
+          "table_entries": 5
+        }
+      },
+      "after": {
+        "2.0": 0.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 1.0,
+        "7.0": 5.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        }
+      },
+      "returns": [
+        null,
+        null,
+        20.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 20,
+      "handler": "Q",
+      "before": {
+        "2.0": 0.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 1.0,
+        "7.0": 5.0,
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        }
+      },
+      "after": {
+        "2.0": 0.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 1.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 1.0
+      },
+      "returns": [
+        null,
+        null,
+        23.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 23,
+      "handler": "N",
+      "before": {
+        "2.0": 0.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 1.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 1.0
+      },
+      "after": {
+        "2.0": 0.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 1.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": 1.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 1.0
+      },
+      "returns": [
+        null,
+        null,
+        24.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1.1",
+      "pc": 1,
+      "handler": "_a",
+      "before": {},
+      "after": {
+        "1.0": 1.0
+      },
+      "returns": [
+        1.0,
+        true,
+        2.0,
+        1.0,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 24,
+      "handler": "M",
+      "before": {
+        "2.0": 0.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 1.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": 1.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 1.0
+      },
+      "after": {
+        "2.0": 1.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 1.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": 1.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 1.0
+      },
+      "returns": [
+        null,
+        null,
+        25.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 25,
+      "handler": "I",
+      "before": {
+        "2.0": 1.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 1.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": 1.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 1.0
+      },
+      "after": {
+        "2.0": 1.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 1.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": 1.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 1.0
+      },
+      "returns": [
+        null,
+        null,
+        27.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 27,
+      "handler": "J",
+      "before": {
+        "2.0": 1.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 1.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": 1.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 1.0
+      },
+      "after": {
+        "2.0": 1.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 2.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": 1.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 2.0
+      },
+      "returns": [
+        null,
+        null,
+        23.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 23,
+      "handler": "N",
+      "before": {
+        "2.0": 1.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 2.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": 1.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 2.0
+      },
+      "after": {
+        "2.0": 1.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 2.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": 2.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 2.0
+      },
+      "returns": [
+        null,
+        null,
+        24.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1.1",
+      "pc": 1,
+      "handler": "_a",
+      "before": {},
+      "after": {
+        "1.0": 2.0
+      },
+      "returns": [
+        1.0,
+        true,
+        2.0,
+        1.0,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 24,
+      "handler": "M",
+      "before": {
+        "2.0": 1.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 2.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": 2.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 2.0
+      },
+      "after": {
+        "2.0": 3.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 2.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": 2.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 2.0
+      },
+      "returns": [
+        null,
+        null,
+        25.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 25,
+      "handler": "I",
+      "before": {
+        "2.0": 3.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 2.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": 2.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 2.0
+      },
+      "after": {
+        "2.0": 3.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 2.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": 2.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 2.0
+      },
+      "returns": [
+        null,
+        null,
+        27.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 27,
+      "handler": "J",
+      "before": {
+        "2.0": 3.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 2.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": 2.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 2.0
+      },
+      "after": {
+        "2.0": 3.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 3.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": 2.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 3.0
+      },
+      "returns": [
+        null,
+        null,
+        23.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 23,
+      "handler": "N",
+      "before": {
+        "2.0": 3.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 3.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": 2.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 3.0
+      },
+      "after": {
+        "2.0": 3.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 3.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": 3.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 3.0
+      },
+      "returns": [
+        null,
+        null,
+        24.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1.1",
+      "pc": 1,
+      "handler": "_a",
+      "before": {},
+      "after": {
+        "1.0": 3.0
+      },
+      "returns": [
+        1.0,
+        true,
+        2.0,
+        1.0,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 24,
+      "handler": "M",
+      "before": {
+        "2.0": 3.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 3.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": 3.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 3.0
+      },
+      "after": {
+        "2.0": 6.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 3.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": 3.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 3.0
+      },
+      "returns": [
+        null,
+        null,
+        25.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 25,
+      "handler": "I",
+      "before": {
+        "2.0": 6.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 3.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": 3.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 3.0
+      },
+      "after": {
+        "2.0": 6.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 3.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": 3.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 3.0
+      },
+      "returns": [
+        null,
+        null,
+        27.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 27,
+      "handler": "J",
+      "before": {
+        "2.0": 6.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 3.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": 3.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 3.0
+      },
+      "after": {
+        "2.0": 6.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 4.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": 3.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 4.0
+      },
+      "returns": [
+        null,
+        null,
+        23.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 23,
+      "handler": "N",
+      "before": {
+        "2.0": 6.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 4.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": 3.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 4.0
+      },
+      "after": {
+        "2.0": 6.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 4.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": 4.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 4.0
+      },
+      "returns": [
+        null,
+        null,
+        24.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1.1",
+      "pc": 1,
+      "handler": "_a",
+      "before": {},
+      "after": {
+        "1.0": 4.0
+      },
+      "returns": [
+        1.0,
+        true,
+        2.0,
+        1.0,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 24,
+      "handler": "M",
+      "before": {
+        "2.0": 6.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 4.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": 4.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 4.0
+      },
+      "after": {
+        "2.0": 10.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 4.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": 4.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 4.0
+      },
+      "returns": [
+        null,
+        null,
+        25.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 25,
+      "handler": "I",
+      "before": {
+        "2.0": 10.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 4.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": 4.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 4.0
+      },
+      "after": {
+        "2.0": 10.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 4.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": 4.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 4.0
+      },
+      "returns": [
+        null,
+        null,
+        27.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 27,
+      "handler": "J",
+      "before": {
+        "2.0": 10.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 4.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": 4.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 4.0
+      },
+      "after": {
+        "2.0": 10.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 5.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": 4.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 5.0
+      },
+      "returns": [
+        null,
+        null,
+        23.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 23,
+      "handler": "N",
+      "before": {
+        "2.0": 10.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 5.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": 4.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 5.0
+      },
+      "after": {
+        "2.0": 10.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 5.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": 5.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 5.0
+      },
+      "returns": [
+        null,
+        null,
+        24.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1.1",
+      "pc": 1,
+      "handler": "_a",
+      "before": {},
+      "after": {
+        "1.0": 5.0
+      },
+      "returns": [
+        1.0,
+        true,
+        2.0,
+        1.0,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 24,
+      "handler": "M",
+      "before": {
+        "2.0": 10.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 5.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": 5.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 5.0
+      },
+      "after": {
+        "2.0": 15.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 5.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": 5.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 5.0
+      },
+      "returns": [
+        null,
+        null,
+        25.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 25,
+      "handler": "I",
+      "before": {
+        "2.0": 15.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 5.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": 5.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 5.0
+      },
+      "after": {
+        "2.0": 15.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 5.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": 5.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 5.0
+      },
+      "returns": [
+        null,
+        null,
+        27.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 27,
+      "handler": "J",
+      "before": {
+        "2.0": 15.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "6.0": 5.0,
+        "7.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "8.0": 5.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        },
+        "5.0": 5.0
+      },
+      "after": {
+        "2.0": 15.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "8.0": 5.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        }
+      },
+      "returns": [
+        null,
+        null,
+        26.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root.1",
+      "pc": 26,
+      "handler": "S",
+      "before": {
+        "2.0": 15.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "8.0": 5.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        }
+      },
+      "after": {
+        "2.0": 15.0,
+        "1.0": {
+          "table_entries": 5
+        },
+        "8.0": 5.0,
+        "9.0": 1.0,
+        "10.0": 5.0,
+        "3.0": {
+          "builtin": "next"
+        },
+        "4.0": {
+          "table_entries": 5
+        }
+      },
+      "returns": [
+        1.0,
+        true,
+        27.0,
+        2.0,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root",
+      "pc": 6,
+      "handler": "U",
+      "before": {
+        "1.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "2.0": {
+          "closure_range": [
+            95955,
+            97182
+          ]
+        },
+        "3.0": {
+          "builtin": "assert"
+        },
+        "4.0": 15.0
+      },
+      "after": {
+        "1.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "2.0": {
+          "closure_range": [
+            95955,
+            97182
+          ]
+        },
+        "3.0": {
+          "builtin": "assert"
+        },
+        "4.0": 15.0,
+        "5.0": 15.0
+      },
+      "returns": [
+        null,
+        null,
+        7.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root",
+      "pc": 7,
+      "handler": "T",
+      "before": {
+        "1.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "2.0": {
+          "closure_range": [
+            95955,
+            97182
+          ]
+        },
+        "3.0": {
+          "builtin": "assert"
+        },
+        "4.0": 15.0,
+        "5.0": 15.0
+      },
+      "after": {
+        "1.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "2.0": {
+          "closure_range": [
+            95955,
+            97182
+          ]
+        },
+        "3.0": {
+          "builtin": "assert"
+        },
+        "4.0": true,
+        "5.0": 15.0
+      },
+      "returns": [
+        null,
+        null,
+        8.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root",
+      "pc": 8,
+      "handler": "K",
+      "before": {
+        "1.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "2.0": {
+          "closure_range": [
+            95955,
+            97182
+          ]
+        },
+        "3.0": {
+          "builtin": "assert"
+        },
+        "4.0": true,
+        "5.0": 15.0
+      },
+      "after": {
+        "1.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "2.0": {
+          "closure_range": [
+            95955,
+            97182
+          ]
+        },
+        "3.0": {
+          "builtin": "assert"
+        },
+        "4.0": {
+          "closure_range": [
+            95955,
+            97182
+          ]
+        },
+        "5.0": 15.0
+      },
+      "returns": [
+        null,
+        null,
+        9.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root",
+      "pc": 9,
+      "handler": "ca",
+      "before": {
+        "1.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "2.0": {
+          "closure_range": [
+            95955,
+            97182
+          ]
+        },
+        "3.0": {
+          "builtin": "assert"
+        },
+        "4.0": {
+          "closure_range": [
+            95955,
+            97182
+          ]
+        },
+        "5.0": 15.0
+      },
+      "after": {
+        "1.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "2.0": {
+          "closure_range": [
+            95955,
+            97182
+          ]
+        },
+        "3.0": {
+          "builtin": "assert"
+        },
+        "4.0": 15.0,
+        "5.0": 15.0
+      },
+      "returns": [
+        null,
+        null,
+        10.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root",
+      "pc": 10,
+      "handler": "U",
+      "before": {
+        "1.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "2.0": {
+          "closure_range": [
+            95955,
+            97182
+          ]
+        },
+        "3.0": {
+          "builtin": "assert"
+        },
+        "4.0": 15.0,
+        "5.0": 15.0
+      },
+      "after": {
+        "1.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "2.0": {
+          "closure_range": [
+            95955,
+            97182
+          ]
+        },
+        "3.0": {
+          "builtin": "assert"
+        },
+        "4.0": 15.0,
+        "5.0": 15.0
+      },
+      "returns": [
+        null,
+        null,
+        11.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root",
+      "pc": 11,
+      "handler": "T",
+      "before": {
+        "1.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "2.0": {
+          "closure_range": [
+            95955,
+            97182
+          ]
+        },
+        "3.0": {
+          "builtin": "assert"
+        },
+        "4.0": 15.0,
+        "5.0": 15.0
+      },
+      "after": {
+        "1.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "2.0": {
+          "closure_range": [
+            95955,
+            97182
+          ]
+        },
+        "3.0": {
+          "builtin": "assert"
+        },
+        "4.0": true,
+        "5.0": 15.0
+      },
+      "returns": [
+        null,
+        null,
+        12.0,
+        null,
+        -1.0
+      ]
+    },
+    {
+      "loader": "k",
+      "prototype": "root",
+      "pc": 12,
+      "handler": "W",
+      "before": {
+        "1.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "2.0": {
+          "closure_range": [
+            95955,
+            97182
+          ]
+        },
+        "3.0": {
+          "builtin": "assert"
+        },
+        "4.0": true,
+        "5.0": 15.0
+      },
+      "after": {
+        "1.0": {
+          "closure_range": [
+            59015,
+            60627
+          ]
+        },
+        "2.0": {
+          "closure_range": [
+            95955,
+            97182
+          ]
+        },
+        "3.0": {
+          "builtin": "assert"
+        },
+        "4.0": true,
+        "5.0": 15.0
+      },
+      "returns": [
+        0.0,
+        true,
+        13.0,
+        1.0,
+        -1.0
+      ]
+    }
+  ],
+  "coverage": {
+    "k/root": {
+      "visited": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "not_executed": []
+    },
+    "k/root.1": {
+      "visited": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "not_executed": [
+        13
+      ]
+    },
+    "k/root.1.1": {
+      "visited": [
+        1
+      ],
+      "not_executed": []
+    }
+  },
+  "coverage_note": "Record 13 in the 27-record closure-sum prototype is an upvalue-capture descriptor consumed by record 12, not a separately dispatched statement. A trace alone is not a general proof of decompilation."
+}

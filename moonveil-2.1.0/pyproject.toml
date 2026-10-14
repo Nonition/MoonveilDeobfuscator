@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "moonveil-21-analysis-toolkit"
+version = "0.2.0"
+description = "MoonVeil 2.1.0 pure-loader analysis and reviewed reconstructions; not a universal decompiler"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT for original tooling; third-party fixtures excluded"}
+dependencies = []
+
+[project.optional-dependencies]
+verify = ["lupa==2.8"]
+
+[project.scripts]
+moonveil21 = "moonveil21.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["moonveil21*"]
+
+[tool.setuptools.package-data]
+"moonveil21.core" = ["vendor/*.js", "vendor/*.cjs", "vendor/*.txt"]

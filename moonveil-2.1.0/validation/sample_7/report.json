@@ -1,0 +1,28 @@
+{
+  "tool_version": "0.2.0",
+  "input_sha256": "fb26e52ce09f4faa5625b0c1b0a15a213af6ffd35ba2db5d570cbf08f6d3c172",
+  "input_bytes": 98341,
+  "obfuscator_header": "MoonVeil 2.1.0",
+  "status": "vm_analysis_only",
+  "universal_decompiler": false,
+  "native_lua_vm_used": false,
+  "program_entry_invoked": true,
+  "constants_decoded": 644,
+  "counter_assignments_lowered": [
+    "K+=1"
+  ],
+  "vm_loaders": 1,
+  "prototype_count": 2,
+  "instruction_records": 28,
+  "pure_ast_steps": 553053,
+  "clean_source_generated_automatically": false,
+  "program_entry_mode": "pure AST interpreter; reviewed fixture only",
+  "trace_assertions": [
+    [
+      true
+    ],
+    [
+      true
+    ]
+  ]
+}

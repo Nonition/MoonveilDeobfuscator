@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.env
+node_modules/
+analysis/
+*.rar
+*.zip
+# Third-party input/reconstructed sample content: review permissions before publishing.
+samples/*.lua
+results/*/*.lua
