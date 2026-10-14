@@ -1,0 +1,20 @@
+{
+  "tool_version": "0.1.0",
+  "platform": "Linux-6.1.158+-x86_64-with-glibc2.41",
+  "python": "3.13.16",
+  "node": "v20.20.2",
+  "standard_library_unit_tests_passed": 19,
+  "synthetic_profile_seeds": 5,
+  "independent_real_input_samples": 1,
+  "rideafish_mock_differential_scenarios_passed": 74,
+  "local_worker_modes_tested": [
+    "deobfuscate",
+    "analyze",
+    "unsupported_input"
+  ],
+  "native_windows_powershell_tested": false,
+  "live_discord_tested": false,
+  "docker_image_run_tested": false,
+  "live_roblox_tested": false,
+  "universal_support": false
+}

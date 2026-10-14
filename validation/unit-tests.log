@@ -1,0 +1,24 @@
+test_analysis_package (test_toolkit.CLITests.test_analysis_package) ... ok
+test_cli_output_and_report (test_toolkit.CLITests.test_cli_output_and_report) ... ok
+test_existing_file_preserved (test_toolkit.CLITests.test_existing_file_preserved) ... ok
+test_input_never_overwritten (test_toolkit.CLITests.test_input_never_overwritten) ... ok
+test_require_verified_no_file (test_toolkit.CLITests.test_require_verified_no_file) ... ok
+test_strict_unknown_no_final_file (test_toolkit.CLITests.test_strict_unknown_no_final_file) ... ok
+test_binary_boundaries (test_toolkit.FrontTests.test_binary_boundaries) ... ok
+test_environment_read_denied (test_toolkit.FrontTests.test_environment_read_denied) ... ok
+test_grouped_multireturn (test_toolkit.FrontTests.test_grouped_multireturn) ... ok
+test_instruction_limit (test_toolkit.FrontTests.test_instruction_limit) ... ok
+test_invalid_binary (test_toolkit.FrontTests.test_invalid_binary) ... ok
+test_long_comment (test_toolkit.FrontTests.test_long_comment) ... ok
+test_string_allocation_limit (test_toolkit.FrontTests.test_string_allocation_limit) ... ok
+test_unclosed_string (test_toolkit.FrontTests.test_unclosed_string) ... ok
+test_zero_truth_and_types (test_toolkit.FrontTests.test_zero_truth_and_types) ... ok
+test_changed_names_and_state_ids (test_toolkit.ProfileTests.test_changed_names_and_state_ids) ... ok
+test_conflicting_cache_refused (test_toolkit.ProfileTests.test_conflicting_cache_refused) ... ok
+test_non_profile_rejected (test_toolkit.ProfileTests.test_non_profile_rejected) ... ok
+test_unknown_dispatcher_not_labeled_complete (test_toolkit.ProfileTests.test_unknown_dispatcher_not_labeled_complete) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 4.826s
+
+OK

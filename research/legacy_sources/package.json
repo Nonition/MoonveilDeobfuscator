@@ -1,0 +1,16 @@
+{
+  "name": "moonveil_work",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "lua-fmt": "^2.6.0",
+    "luaparse": "^0.3.1"
+  }
+}

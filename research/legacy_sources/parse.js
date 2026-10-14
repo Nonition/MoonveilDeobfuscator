@@ -1,0 +1,17 @@
+const fs = require('fs');
+const lua = require('luaparse');
+const input = fs.readFileSync('RideAFish.obfuscated.lua','utf8');
+const source = input.replace(/"(?:\\.|[^"\\])*"|'(?:\\.|[^'\\])*'|\b0b[01]+\b/g, x => x.startsWith('0b') ? String(parseInt(x.slice(2),2)) : x);
+fs.writeFileSync('normalized.lua',source);
+const ast = lua.parse(source,{luaVersion:'5.3',ranges:true,scope:true,encodingMode:'x-user-defined'});
+fs.writeFileSync('ast.json',JSON.stringify(ast));
+const ret=ast.body[0].arguments[0];
+console.log('Top:',ret.type,ret.base.type,ret.base.identifier);
+const table=ret.base.base;
+let idx=0;
+const fields=table.fields.map(f=>({key:f.type==='TableValue'? ++idx : (f.key.name ?? f.key.value),type:f.value.type,range:f.value.range,parameters:f.value.parameters?.map(p=>p.name||'...'), preview:source.slice(f.value.range[0],f.value.range[0]+190)}));
+fs.writeFileSync('fields.json',JSON.stringify(fields,null,2));
+console.log('Field count:',fields.length);
+console.log(fields.map(f=>`${f.key}: ${f.type}, ${f.range[1]-f.range[0]} bytes`).join('\n')); 
+fs.writeFileSync('outer_table.lua','return '+source.slice(...table.range));
+console.log('Args:',JSON.stringify(ret.arguments.map(a=>source.slice(...a.range))));

@@ -1,0 +1,2 @@
+# Optional. Never needed by the static decoder or production bot worker.
+lupa==2.8

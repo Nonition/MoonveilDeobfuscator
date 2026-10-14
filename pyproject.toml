@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "moonveil-profile-toolkit"
+version = "0.1.0"
+description = "Experimental static decoder and CFG recovery for a MoonVeil 2.0.26 profile"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT (tooling only; third-party samples excluded)"}
+dependencies = []
+
+[project.optional-dependencies]
+bot = ["discord.py>=2.4,<3"]
+regression = ["lupa==2.8"]
+
+[project.scripts]
+moonveil = "moonveil.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["moonveil*"]
+
+[tool.setuptools.package-data]
+moonveil = ["vendor/*.js", "vendor/*.cjs", "vendor/*.txt"]

@@ -1,0 +1,21 @@
+.env
+.env.*
+!.env.example
+*.pyc
+__pycache__/
+.venv/
+node_modules/
+build/
+dist/
+*.egg-info/
+*.rar
+*.zip
+inputs/
+outputs/
+analysis/
+regression-report.json
+research/regression/reports/
+# Third-party sample contents are bundled for this request, not MIT-licensed tooling.
+# Remove these exclusions only if you have permission to redistribute the game code.
+research/rideafish/*.lua
+research/legacy_sources/node_modules/

@@ -1,0 +1,19 @@
+[
+  {
+    "mode": "deobfuscate",
+    "status": "recovered_unverified",
+    "output_name": "Moonveil_Deobfuscated.lua",
+    "output_bytes": 58924
+  },
+  {
+    "mode": "analyze",
+    "status": "recovered_unverified",
+    "output_name": "Moonveil_Analysis.zip",
+    "output_bytes": 99091
+  },
+  {
+    "mode": "unsupported_input",
+    "status": "unsupported",
+    "output_bytes": 0
+  }
+]

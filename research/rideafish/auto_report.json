@@ -1,0 +1,19 @@
+{
+  "tool": "moonveil-toolkit",
+  "tool_version": "0.1.0",
+  "profile": "moonveil-2.0.26-table-dispatch-v1",
+  "input_sha256": "f235e3843beba872fb69bc2fcc1bc66651ebfeba8a37fd58f366dbb04ed12a4c",
+  "input_bytes": 83078,
+  "status": "recovered_unverified",
+  "payload_executed": false,
+  "live_runtime_verified": false,
+  "universal_support": false,
+  "original_names_recovered": false,
+  "constants_decoded": 929,
+  "pure_interpreter_steps": 4648101,
+  "decoder_exports_discovered": 59,
+  "functions_structured": 21,
+  "states_accounted_for": 187,
+  "output_bytes": 58841,
+  "output_sha256": "c0d1c4993facc8e9c88e2330ce527dd98a6843ef84535de8628e6034bf296840"
+}
